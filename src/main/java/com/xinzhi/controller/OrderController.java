@@ -1,4 +1,4 @@
-package com.xinzhi.Controller;
+package com.xinzhi.controller;
 
 import com.xinzhi.service.OrderService;
 import io.swagger.annotations.Api;

@@ -35,7 +35,8 @@ public class SwaggerConfig
                 .apiInfo(apiInfo())
                 .enable(enabled)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.xinzhi")) //你自己的package
+                //你自己的package
+                .apis(RequestHandlerSelectors.basePackage("com.xinzhi"))
                 .paths(PathSelectors.any())
                 .build();
     }
